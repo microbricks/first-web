@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0078D4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #005A9E;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #005A9E;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welkom op mijn website</h1>
+        <p>Een eenvoudige website gemaakt met HTML en CSS</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Over mij</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Hallo!</h2>
+        <p>Dit is een voorbeeldwebsite. Je kunt deze naar wens aanpassen.</p>
+
+        <button onclick="toonBericht()">Klik hier</button>
+    </main>
+
+    <footer>
+        © 2026 Mijn Website
+    </footer>
+
+    <script>
+        function toonBericht() {
+            alert("Bedankt voor je bezoek!");
+        }
+    </script>
+
+</body>
+</html>
